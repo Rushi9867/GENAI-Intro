@@ -1,0 +1,5 @@
+LLMAPP/venv
+LLMAPP/.env
+notebooks/genvenv
+notebooks/.env
+
