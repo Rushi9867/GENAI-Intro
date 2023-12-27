@@ -1,0 +1,10 @@
+pandas
+langchain
+pinecone-client
+pypdf
+openai
+tiktoken
+huggingface_hub
+transformers
+accelerate
+bitsandbytes
