@@ -3,6 +3,7 @@ LLMAPP/.env
 notebooks/genvenv
 notebooks/.env
 Youtube/.env
+Llamaindex and RAG/.env
 Google-Gemini-Crash-Course/ATS System/.env
 Google-Gemini-Crash-Course/atsllm/.env
 Google-Gemini-Crash-Course/ChatWithPDF Gemini/.env

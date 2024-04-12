@@ -10,7 +10,7 @@ from langchain.chains import SequentialChain
 ## Function to load OpenAI model and get Responses
 
 def get_openai_response(question):
-    llm=OpenAI(openai_api_key=os.environ["OPENAI_API_KEY"],model_name='gpt-3.5-turbo-0125',temperature=0.6)
+    llm=OpenAI(temperature=0.6)
     
     industry_prompt = PromptTemplate(input_variables=['Industry'],
     template="When did started {Industry}")
@@ -46,7 +46,7 @@ def get_openai_response(question):
     input_variables=['Industry'],
     output_variables=['Year','Category','CEO','Service','Models','links'])
 
-    response = chain({"Industry":"question"})
+    response = chain({'Industry':'question'})
     return response
 
 
