@@ -2,3 +2,16 @@ llama_index
 llama-index-readers-web
 python-dotenv
 html2text
+pandas
+langchain
+langchain_openai
+langchain_core
+langchain_community
+langserve
+uvicorn
+sse_starlette
+pypdf
+streamlit
+bs4
+chromadb
+faiss-cpu
